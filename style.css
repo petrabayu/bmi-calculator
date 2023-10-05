@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  background-color: #e2e2e2;
+  /* background-color: rgb(246, 79, 79); */
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: 5% auto;
+  justify-content: center;
+}
+
+#form {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 5px 9px 28px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 9px 28px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 9px 28px -9px rgba(0, 0, 0, 0.75);
+}
+
+#form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#title {
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.container .input-bmi p {
+  font-size: 20px;
+}
