@@ -56,8 +56,8 @@ function bmiCategories(hasil) {
 
 //function untuk cek tinggi badan
 function heightCheck(nilai) {
-  if (nilai < 100) {
-    alert("Masukkan nilai tinggi dalam satuan cm, minimal tinggi badan 100cm");
+  if (nilai < 30) {
+    alert("Masukkan nilai tinggi dalam satuan cm, minimal tinggi badan 30cm");
     location.reload();
   } else {
     return;
